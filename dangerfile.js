@@ -2,7 +2,6 @@ import { danger, warn } from 'danger';
 import fs from 'fs';
 import path from 'path';
 
-
 function absolute (relPath) {
   return path.resolve(__dirname, relPath);
 }
