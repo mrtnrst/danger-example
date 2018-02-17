@@ -1,0 +1,17 @@
+{
+  "extends": "@dialexa/eslint-config-dialexa/es6",
+  "plugins": [
+    "flowtype"
+  ],
+  "rules": {
+    "flowtype/define-flow-type": 1,
+    "arrow-parens": ["error", "as-needed"],
+    "react/prefer-stateless-function": 0,
+    "class-methods-use-this": 0
+  },
+  "settings": {
+    "flowtype": {
+      "onlyFilesWithFlowAnnotation": false
+    }
+  }
+}

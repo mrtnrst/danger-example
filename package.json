@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@dialexa/eslint-config-dialexa": "^4.1.1",
+    "babel-eslint": "^8.2.1",
+    "danger": "^3.1.6",
+    "eslint": "^4.17.0",
+    "eslint-plugin-flowtype": "^2.43.0"
+  }
+}
